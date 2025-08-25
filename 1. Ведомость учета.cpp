@@ -93,7 +93,7 @@ void addPayment(const std::string& filename) {
 
 int main() {
     system("chcp 1251"); // Установить кодировку
-    std::string filename = "C:\\Users\\user\\Documents\\Программы\\cpp\\21.5\\1. Ведомость учета\\payments.txt";
+    std::string filename = "..\\payments.txt";
     std::string command;
 
     std::cout << "Введите команду (list или add): ";
@@ -109,4 +109,5 @@ int main() {
     else {
         std::cerr << "Неверная команда." << std::endl;
     }
+
 }
